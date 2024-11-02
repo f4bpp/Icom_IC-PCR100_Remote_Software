@@ -1,6 +1,6 @@
 # F4BPP Icom IC-PCR100 Remote Software
 
-## Presentation of the software.
+## 1. Presentation of the software.
 
 ![F4BPP Icom IC-PCR100 Preview](https://github.com/f4bpp/Icom_IC-PCR100_Remote_Software/blob/main/Images/F4BPP_Icom_IC-PCR100_Remote_Software_Preview.png)
 
@@ -14,7 +14,7 @@ It has been developed to optimise the reception of SSTV images sent from the ISS
 
 Thanks to the interconnection between the Icom IC-PCR100 and Gpredict, the receiver's reception frequency is adjusted in real time to correct the Doppler effect inherent in satellite communications: higher frequency when the satellite is approaching and lower frequency when it is moving away
 
-## 2) Prerequisites for running the software.
+## 2. Prerequisites for running the software.
 
 To run, this programme requires the following packages to be installed: **libhamlib-utils**.
 
@@ -26,7 +26,7 @@ The **Gpredict** software is therefore also necessary if you want to use the rec
 
 If you wish to receive SSTV images sent from space via the ISS, you will also need to install the **QSSTV** software.
 
-## Software installation.
+## 3. Software installation.
 
 To install the Icom IC-PCR100 remote software, simply double-click on the package and let the package installer of your Linux distribution guide you.
 
@@ -38,7 +38,7 @@ For the Raspberry PI version, enter the following command:
 
     sudo dpkg -i PCR100_Remote_jammy_arm64.deb
 
-## Connecting the receiver to the computer.
+## 4. Connecting the receiver to the computer.
 
 The icom IC-PCR100 is a receiver that was launched in 1998. At the time, it was supplied with a DB9 connection cable, also known as an RS-232 COM port. This type of port is no longer found on computers.
 
