@@ -32,11 +32,11 @@ To install the Icom IC-PCR100 remote software, simply double-click on the packag
 
 You can also open a terminal at the location where you downloaded the software and enter the following command for the desktop version:
 
-    sudo dpkg -i PCR100_Remote_jammy_amd64.deb
+    sudo dpkg -i PCR100_Remote_amd64.deb
 
 For the Raspberry PI version, enter the following command:
 
-    sudo dpkg -i PCR100_Remote_jammy_arm64.deb
+    sudo dpkg -i PCR100_Remote_arm64.deb
 
 ## 4. Connecting the receiver to the computer.
 
